@@ -30,6 +30,7 @@ body {
   text-align: center;
   font-size: 35px;
   font-weight: 700;
+text-shadow: #757575 2px 2px 5px ;
 }
 
 .section-description {
@@ -37,6 +38,7 @@ body {
   text-align: center;
   font-size: 18px;
 }
+
 
 /* nav related styles */
 nav {
@@ -69,9 +71,11 @@ nav a {
 /* header related styles */
 .header {
   background-color: #fff8f3;
-  background-image: url("../images/header_bg.png");
+  /* background-image: url("../images/header_bg.png"); */
+  background-image: url("../images/splash_Copy.png");
   background-repeat: no-repeat;
   background-position: bottom right;
+  
 }
 
 .banner {
@@ -85,23 +89,25 @@ nav a {
   max-width: 500px;
 }
 .banner .profile-photo {
-  width: 500px;
+  width: auto;
 }
 
 .banner-greeting {
-  font-size: 45px;
+  font-size: 35px;
   color: #474747;
   margin-bottom: 0;
 }
 .banner-title {
-  font-size: 85px;
+  font-size: 75px;
   font-weight: 700;
   margin-top: 5px;
   margin-bottom: 20px;
+  text-shadow: #757575 2px 2px 5px ;
 }
 .banner-description {
   margin-bottom: 30px;
   max-width: 585px;
+  font-size: larger;
 }
 
 /* main section styles */
@@ -169,6 +175,8 @@ main section {
   color: #474747;
   font-size: 30px;
   font-weight: 700;
+  text-align: center;
+  text-decoration: underline;
 }
 
 .resume-container {
@@ -195,6 +203,7 @@ main section {
   color: #757575;
   font-size: 16px;
   font-weight: 400;
+  text-align: justify;
 }
 
 .resume-container hr {
@@ -213,6 +222,13 @@ footer {
   background-color: #fff8f3;
   padding: 130px 200px;
   margin-top: 100px;
+}
+
+.footer-section-title {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
 }
 
 .footer-column {
