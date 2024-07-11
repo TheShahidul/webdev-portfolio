@@ -36,7 +36,6 @@ body {
   color: #757575;
   text-align: center;
   font-size: 18px;
-
 }
 
 /* nav related styles */
@@ -106,9 +105,13 @@ nav a {
 }
 
 /* main section styles */
-main{
+main {
   max-width: 1140px;
   margin: 0 auto;
+}
+
+main section {
+  margin-top: 130px;
 }
 
 /* about section styles */
@@ -118,21 +121,54 @@ main{
   background: #fff8f3;
   margin: 130px 0px;
 }
-.about-info-container{
+.about-info-container {
   display: flex;
   justify-content: space-around;
-
 }
-.about-info{
+
+.about-info {
   text-align: center;
 }
-.info-description{
+.info-description {
   color: #474747;
   font-size: 20px;
   font-weight: 700;
 }
-.info-title{
+.info-title {
   color: #757575;
   font-size: 20px;
   font-weight: 400;
+}
+
+/* skills related css */
+
+#what-i-do-descirption {
+  padding: 30px 150px;
+}
+
+.skill {
+  padding: 30px;
+
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skills-container {
+  display: flex;
+  gap: 24px;
+}
+
+.skill-description {
+  color: #757575;
+}
+
+
+/* resume section  */
+
+.resume-column-title{
+
+color:  #474747;
+font-size: 30px;
+font-weight: 700;
 }
